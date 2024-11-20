@@ -1,0 +1,16 @@
+{
+	"name": "fluidsynth",
+	"version": "1.0.0",
+	"description": "Fluidsynth module",
+	"author": "Evan Bender",
+	"launch_mode": "list",
+	"depends_on": [
+		"jack.service"
+	],
+	"scripts": {
+		"install": "install.sh",
+		"launch": "launch.sh",
+		"list": "list.sh",
+		"stop": "stop.sh"
+	}
+}
